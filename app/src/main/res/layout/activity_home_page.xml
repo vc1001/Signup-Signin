@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA7F3E"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uncode"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="0.2"
+                android:textColor="@color/white" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_search_24"
+                android:layout_weight="0.5"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_shopping_cart_24"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Offers"
+                android:textSize="20dp"/>
+            <TextView
+                android:text="Electronics"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="Fashion"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="Home"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="More"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+        </GridLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="30dp"
+                android:src="@drawable/watch"/>
+            <TextView
+                android:text="SKMEICURREN"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:paddingLeft="30dp"/>
+            <TextView
+                android:text="Under 9999/-"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingLeft="30dp"/>
+        </GridLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
